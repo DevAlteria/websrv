@@ -7,4 +7,4 @@ WORKDIR /app
 # copy all files from current directory inside the build-env container
 COPY . .
 # Compile the source code and generate hello binary executable file
-CMD [ "sh" ]
+CMD [ "/bin/sh" ]
