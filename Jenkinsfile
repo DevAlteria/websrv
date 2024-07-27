@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'RUN make'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'TODO: RUN make test all'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'TODO: make push request to release branch'
             }
         }
     }
