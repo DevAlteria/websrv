@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-		dockerContainer { image 'gcc:12.4.0'}
-	}
-
+    agent { dockerfile true }
     stages {
         stage('Build') {
             steps {
