@@ -1,6 +1,6 @@
 pipeline {
     agent {
-		docker { image 'gcc:12.4.0'}
+		dockerContainer { image 'gcc:12.4.0'}
 	}
 
     stages {
